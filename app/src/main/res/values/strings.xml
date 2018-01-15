@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Hola</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="buscar">Buscar</string>
+    <string name="visor">VISOR</string>
+
+    <string-array name="clientes">
+        <item>Cliente</item>
+        <item>Cliente1</item>
+        <item>Cliente2</item>
+        <item>Cliente3</item>
+        <item>Cliente4</item>
+        <item>Cliente5</item>
+    </string-array>
+
+    <string-array name="flotillas">
+        <item>Flotilla</item>
+        <item>Flotilla1</item>
+        <item>Flotilla2</item>
+        <item>Flotilla3</item>
+        <item>Flotilla4</item>
+        <item>Flotilla5</item>
+    </string-array>
+</resources>
