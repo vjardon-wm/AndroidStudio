@@ -3,9 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidStudio.iml" filepath="$PROJECT_DIR$/AndroidStudio.iml" />
-      <module fileurl="file://C:\Users\Luisa\Documents\Webmaps\AppAndroid\AndroidStudio\Hola.iml" filepath="C:\Users\Luisa\Documents\Webmaps\AppAndroid\AndroidStudio\Hola.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hola.iml" filepath="$PROJECT_DIR$/Hola.iml" />
+      <module fileurl="file://C:/Users/Luisa/Documents/Webmaps/AppAndroid/AndroidStudio/Hola.iml" filepath="C:/Users/Luisa/Documents/Webmaps/AppAndroid/AndroidStudio/Hola.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\Luisa\Documents\Webmaps\AppAndroid\AndroidStudio\app\app.iml" filepath="C:\Users\Luisa\Documents\Webmaps\AppAndroid\AndroidStudio\app\app.iml" />
+      <module fileurl="file://C:/Users/Luisa/Documents/Webmaps/AppAndroid/AndroidStudio/app/app.iml" filepath="C:/Users/Luisa/Documents/Webmaps/AppAndroid/AndroidStudio/app/app.iml" />
     </modules>
   </component>
 </project>
