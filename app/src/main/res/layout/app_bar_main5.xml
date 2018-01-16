@@ -47,53 +47,56 @@
             android:layout_height="40dp"
             android:text="Iniciar Prueba"
             android:textColor="#fff"
-            android:layout_alignParentBottom="true"
             android:textAllCaps="false"
             android:textSize="18dp"
             android:typeface="sans"
-            android:layout_centerHorizontal="true"
-            android:background = "@drawable/radiobutton"
-            android:layout_marginBottom="81dp"></Button>
+            android:background = "@drawable/radiobutton2"
+            android:layout_below="@+id/imageView45"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="29dp"></Button>
 
         <ImageView
-            android:layout_width="170dp"
-            android:layout_height="170dp"
-            android:id="@+id/imageView4"
-            android:src="@drawable/hoja_03"
-            android:layout_above="@+id/button"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="30dp"
-            android:layout_marginBottom="30dp" />
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            android:id="@+id/imageView45"
+            android:src="@drawable/driver_44"
+            android:layout_marginTop="21dp"
+            android:layout_below="@+id/spmes"
+            android:layout_centerHorizontal="true" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="@dimen/nav_header_vertical_spacing"
-            android:text="Unidad:"
+            android:text="Periodo:"
             android:textColor="#C70000"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="15dp"
-            android:layout_above="@+id/imageView4"
             android:longClickable="true"
             android:typeface="sans"
-            android:layout_toLeftOf="@+id/imageView4"
-            android:layout_toStartOf="@+id/imageView4"
-            android:id="@+id/textView2" />
-        <TextView
-            android:layout_width="match_parent"
+            android:id="@+id/textView2"
+            android:layout_marginBottom="44dp"
+            android:layout_above="@+id/imageSwitcher"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <Spinner
+            android:id="@+id/spmes"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingTop="@dimen/nav_header_vertical_spacing"
-            android:text="Unidad 1"
+            android:entries="@array/mes"
             android:textColor="#615D5B"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="15dp"
-            android:longClickable="true"
-            android:typeface="sans"
-            android:layout_alignTop="@+id/textView2"
-            android:layout_alignLeft="@+id/button"
-            android:layout_alignStart="@+id/button"
-            android:layout_marginLeft="54dp"
-            android:layout_marginStart="54dp"
-            android:id="@+id/textView3" />
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignLeft="@+id/linearLayout2"
+            android:layout_alignStart="@+id/linearLayout2" />
+        <Spinner
+            android:id="@+id/spsemana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/semana"
+            android:textColor="#615D5B"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignLeft="@+id/imageView2"
+            android:layout_alignStart="@+id/imageView2" />
 
         <ImageView
             android:layout_width="40dp"
@@ -104,17 +107,16 @@
             android:layout_alignLeft="@+id/textView3"
             android:layout_alignStart="@+id/textView3"
             android:layout_marginBottom="20dp"
-            android:layout_marginLeft="8dp"/>
+            android:layout_marginLeft="70dp"/>
 
         <ImageView
             android:layout_width="40dp"
             android:layout_height="35dp"
             android:id="@+id/imageView3"
             android:src="@drawable/verefi_1"
-            android:layout_alignTop="@+id/imageView2"
-            android:layout_toRightOf="@+id/imageView4"
-            android:layout_toEndOf="@+id/imageView4"
-            android:layout_marginLeft="-20dp" />
+            android:layout_alignTop="@+id/linearLayout2"
+            android:layout_toLeftOf="@+id/imageButton"
+            android:layout_toStartOf="@+id/imageButton" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -151,7 +153,7 @@
             android:layout_alignLeft="@+id/textView3"
             android:layout_alignStart="@+id/textView3"
             android:layout_marginBottom="9dp"
-            android:layout_marginLeft="-30dp"
+            android:layout_marginLeft="30dp"
             android:layout_toStartOf="@+id/linearLayout2"
             android:layout_toLeftOf="@+id/linearLayout2" />
 
@@ -181,7 +183,6 @@
             android:layout_alignEnd="@+id/imageView2" />
 
         <LinearLayout
-            android:orientation="horizontal"
             android:layout_width="4dp"
             android:layout_height="3dp"
             android:layout_above="@+id/imageView2"
@@ -190,10 +191,34 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentRight="false"
             android:layout_alignParentEnd="true"
-            android:layout_margin="0dp"
             android:layout_alignWithParentIfMissing="false"
             android:layout_alignParentTop="false"
-            />
+            android:layout_marginBottom="45dp" />
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2"
+            android:maxLength="30"
+            android:lines="1"
+            android:layout_alignTop="@+id/layout3"
+            android:layout_centerHorizontal="true"
+            android:singleLine="true"
+            android:hint="Buscar"
+            android:backgroundTint="@android:color/darker_gray"
+            android:layout_marginTop="1dp" />
+
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageButton"
+            android:src="@drawable/ic_search_menu"
+            android:background="@android:color/transparent"
+            android:layout_alignTop="@+id/layout3"
+            android:layout_alignRight="@+id/editText2"
+            android:layout_alignEnd="@+id/editText2"
+            android:layout_marginTop="5dp" />
+
 
         <TextView
             android:layout_width="match_parent"
@@ -212,6 +237,11 @@
             android:layout_above="@+id/layout3"
             android:layout_marginBottom="5dp"
             android:layout_marginLeft="6dp" />
+
+
+
+
+
 
 
     </RelativeLayout>

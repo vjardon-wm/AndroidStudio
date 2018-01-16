@@ -32,6 +32,7 @@
             android:label="@string/title_activity_main3"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
+<<<<<<< HEAD
             android:name=".SplashActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
 
@@ -39,6 +40,15 @@
             android:name=".LoginActivity"
             android:label="@string/title_activity_login">
         </activity>
+=======
+            android:name=".Main4Activity"
+            android:label="@string/title_activity_main4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main5Activity"
+            android:label="@string/title_activity_main5"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+>>>>>>> 7c83a1dbc8731dc6879fad2280c5c5d600b704d5
     </application>
 
 </manifest>
