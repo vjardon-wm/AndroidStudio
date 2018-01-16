@@ -1,5 +1,6 @@
 package com.example.diseo.hola;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -89,15 +90,27 @@ public class Main3Activity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        if (id == R.id.nav_home) {
+            Intent i= new Intent (MainActivity.this, Main3Activity.class);
+            startActivity(i);
+        } else if (id == R.id.nav_noti) {
+            Intent i= new Intent (MainActivity.this, Main4Activity.class);
+            startActivity(i);
+        } else if (id == R.id.nav_check) {
+            Intent i= new Intent (MainActivity.this, Main4Activity.class);
+            startActivity(i);
+        } else if (id == R.id.nav_verifi) {
+            Intent i= new Intent (MainActivity.this, Main2Activity.class);
+            startActivity(i);
+        } else if (id == R.id.nav_tools) {
+            Intent i= new Intent (MainActivity.this, Main5Activity.class);
+            startActivity(i);
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_dash) {
 
-        } else if (id == R.id.nav_manage) {
 
         } else if (id == R.id.nav_share) {
+
 
         } else if (id == R.id.nav_send) {
 

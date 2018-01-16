@@ -3,31 +3,31 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_home"
             android:icon="@drawable/ic_menu_camera"
             android:title="Home" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_noti"
             android:icon="@drawable/ic_menu_gallery"
             android:title="Notificaciones" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_check"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="CheckEngine" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_verifi"
             android:icon="@drawable/ic_menu_manage"
             android:title="Pre-Verificación" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_driver"
             android:icon="@drawable/ic_menu_driver"
             android:title="Driver Behavior" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_tools"
             android:icon="@drawable/ic_menu_tool"
             android:title="Mantenimientos" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_dash"
             android:icon="@drawable/ic_menu_dash"
             android:title="Dashboard" />
     </group>
