@@ -95,8 +95,11 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_verifi) {
             Intent i= new Intent (MainActivity.this, Main2Activity.class);
             startActivity(i);
-        } else if (id == R.id.nav_tools) {
+        } else if (id == R.id.nav_driver) {
             Intent i= new Intent (MainActivity.this, Main5Activity.class);
+            startActivity(i);
+        } else if (id == R.id.nav_tools) {
+            Intent i= new Intent (MainActivity.this, MainActivity.class);
             startActivity(i);
 
         } else if (id == R.id.nav_dash) {

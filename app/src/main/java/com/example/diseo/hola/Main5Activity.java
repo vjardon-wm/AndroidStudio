@@ -82,20 +82,15 @@ public class Main5Activity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_home) {
-            Intent i= new Intent (MainActivity.this, Main3Activity.class);
-            startActivity(i);
+
         } else if (id == R.id.nav_noti) {
-            Intent i= new Intent (MainActivity.this, Main4Activity.class);
-            startActivity(i);
+
         } else if (id == R.id.nav_check) {
-            Intent i= new Intent (MainActivity.this, Main4Activity.class);
-            startActivity(i);
+
         } else if (id == R.id.nav_verifi) {
-            Intent i= new Intent (MainActivity.this, Main2Activity.class);
-            startActivity(i);
+
         } else if (id == R.id.nav_tools) {
-            Intent i= new Intent (MainActivity.this, Main5Activity.class);
-            startActivity(i);
+
 
         } else if (id == R.id.nav_dash) {
 
