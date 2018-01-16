@@ -31,4 +31,29 @@
         <item>Flotilla4</item>
         <item>Flotilla5</item>
     </string-array>
+
+    <string-array name="mes">
+        <item>Fecha</item>
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Sept.</item>
+        <item>Octubre</item>
+        <item>Nov.</item>
+        <item>Dic.</item>
+    </string-array>
+    <string-array name="semana">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string name="title_activity_main22">Main22Activity</string>
+    <string name="title_activity_main4">Main4Activity</string>
+    <string name="title_activity_main5">Main5Activity</string>
 </resources>
