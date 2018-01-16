@@ -3,4 +3,9 @@
     <color name="colorPrimary">#183559</color>
     <color name="colorPrimaryDark">#183559</color>
     <color name="colorAccent">#c70000</color>
+    <color name="white">#fff</color>
+    <color name="blueGeneric">#183559</color>
+    <color name="redGeneric">#C00007</color>
+
+    <color name="black_overlay">#66000000</color>
 </resources>
