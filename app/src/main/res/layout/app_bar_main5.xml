@@ -184,6 +184,7 @@
 
 
         <LinearLayout
+            android:orientation="horizontal"
             android:layout_width="4dp"
             android:layout_height="3dp"
             android:layout_above="@+id/imageView2"
