@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.example.diseo.hola.SplashActivity">
 
     <ImageView
@@ -13,9 +14,10 @@
         android:layout_marginStart="8dp"
         android:scaleType="centerInside"
         android:src="@drawable/logoavl"
-
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         />
     <!--app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    |"-->
 </android.support.constraint.ConstraintLayout>
