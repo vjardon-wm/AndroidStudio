@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity
             Intent i= new Intent (MainActivity.this, Main4Activity.class);
             startActivity(i);
         } else if (id == R.id.nav_check) {
-            Intent i= new Intent (MainActivity.this, Main4Activity.class);
+            Intent i= new Intent (MainActivity.this, Main6Activity.class);
             startActivity(i);
         } else if (id == R.id.nav_verifi) {
             Intent i= new Intent (MainActivity.this, Main2Activity.class);
