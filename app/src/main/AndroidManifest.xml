@@ -34,7 +34,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".LoginActivity"
-            android:label="@string/title_activity_login"></activity>
+            android:label="@string/title_activity_login" />
         <activity
             android:name=".Main5Activity"
             android:label="@string/title_activity_main5"
@@ -50,6 +50,10 @@
         <activity
             android:name=".Main6Activity"
             android:label="@string/title_activity_main6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main7Activity"
+            android:label="@string/title_activity_main7"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
