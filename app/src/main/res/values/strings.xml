@@ -32,6 +32,23 @@
         <item>Flotilla5</item>
     </string-array>
 
+    <string-array name="tiemponotif">
+        <item>1minuto</item>
+        <item>5minutos</item>
+        <item>15minutos</item>
+        <item>30minutos</item>
+        <item>1hora</item>
+        <item>3horas</item>
+    </string-array>
+
+    <string-array name="unattended">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>50</item>
+    </string-array>
+
 
     <string name="title_activity_splashscreen">SplashscreenActivity</string>
     <string name="dummy_button">Dummy Button</string>
@@ -79,5 +96,6 @@
 
 
     <string name="title_activity_mantenimientos">MantenimientosActivity</string>
+    <string name="title_activity_notifications">NotificationsActivity</string>
 
 </resources>
