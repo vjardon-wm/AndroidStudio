@@ -54,6 +54,10 @@
         <activity
             android:name=".NotificationsActivity"
             android:label="@string/title_activity_notifications"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main7Activity"
+            android:label="@string/title_activity_main7"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

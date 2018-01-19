@@ -96,6 +96,7 @@
 
 
     <string name="title_activity_mantenimientos">MantenimientosActivity</string>
+    <string name="title_activity_main7">Main7Activity</string>
     <string name="title_activity_notifications">NotificationsActivity</string>
 
 </resources>
