@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    android:layout_weight="1"
-    tools:context="com.example.diseo.hola.Main2Activity">
+    tools:context="com.example.diseo.hola.Main3Activity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -22,7 +21,7 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_main2" />
+    <include layout="@layout/content_main3" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
@@ -37,10 +36,59 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:paddingBottom="@dimen/activity_vertical_margin"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingLeft="16dp"
         android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingTop="50dp"
         tools:context="com.herprogramacion.botones.ActividadBotones">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:longClickable="true"
+            android:layout_marginTop="15dp"
+            android:text="PRE-VERIFICACIÓN"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#C70000"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:typeface="sans"
+            android:gravity="center"/>
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/editText"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:background="@android:color/darker_gray" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:maxLength="30"
+            android:lines="1"
+            android:layout_centerHorizontal="true"
+            android:singleLine="true"
+            android:hint="Buscar"
+            android:backgroundTint="@android:color/darker_gray"
+            android:layout_marginTop="55dp"
+            android:id="@+id/editText" />
+
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignEnd="@+id/editText"
+            android:layout_alignRight="@+id/editText"
+            android:layout_alignTop="@+id/editText"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_search_menu" />
 
         <Button
             android:id="@+id/button"
@@ -52,19 +100,19 @@
             android:textSize="18dp"
             android:typeface="sans"
             android:background = "@drawable/radiobutton"
-            android:layout_below="@+id/imageView4"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="40dp"></Button>
+            android:layout_below="@+id/imageView56"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="29dp"></Button>
 
         <ImageView
-            android:layout_width="170dp"
-            android:layout_height="170dp"
-            android:id="@+id/imageView4"
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            android:id="@+id/imageView56"
             android:src="@drawable/hoja_03"
-            android:layout_centerVertical="true"
+            android:layout_below="@+id/linearLayout"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="4dp" />
+            android:layout_marginTop="60dp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -73,28 +121,13 @@
             android:textColor="#C70000"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="15dp"
-            android:layout_above="@+id/imageView4"
             android:longClickable="true"
             android:typeface="sans"
-            android:layout_toLeftOf="@+id/imageView4"
-            android:layout_toStartOf="@+id/imageView4"
-            android:id="@+id/textView2" />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="@dimen/nav_header_vertical_spacing"
-            android:text="Unidad 1"
-            android:textColor="#615D5B"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="15dp"
-            android:longClickable="true"
-            android:typeface="sans"
-            android:layout_alignTop="@+id/textView2"
-            android:layout_alignLeft="@+id/button"
-            android:layout_alignStart="@+id/button"
-            android:layout_marginLeft="54dp"
-            android:layout_marginStart="54dp"
-            android:id="@+id/textView3" />
+            android:id="@+id/textView2"
+            android:layout_marginBottom="44dp"
+            android:layout_above="@+id/imageSwitcher"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
 
         <ImageView
             android:layout_width="40dp"
@@ -105,17 +138,16 @@
             android:layout_alignLeft="@+id/textView3"
             android:layout_alignStart="@+id/textView3"
             android:layout_marginBottom="20dp"
-            android:layout_marginLeft="8dp"/>
+            android:layout_marginLeft="70dp"/>
 
         <ImageView
             android:layout_width="40dp"
             android:layout_height="35dp"
-            android:id="@+id/imageView3"
+            android:id="@+id/imageView4"
             android:src="@drawable/verefi_1"
-            android:layout_alignTop="@+id/imageView2"
-            android:layout_toRightOf="@+id/imageView4"
-            android:layout_toEndOf="@+id/imageView4"
-            android:layout_marginLeft="-20dp" />
+            android:layout_alignTop="@+id/linearLayout2"
+            android:layout_toLeftOf="@+id/imageButton"
+            android:layout_toStartOf="@+id/imageButton" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -152,7 +184,7 @@
             android:layout_alignLeft="@+id/textView3"
             android:layout_alignStart="@+id/textView3"
             android:layout_marginBottom="9dp"
-            android:layout_marginLeft="-30dp"
+            android:layout_marginLeft="30dp"
             android:layout_toStartOf="@+id/linearLayout2"
             android:layout_toLeftOf="@+id/linearLayout2" />
 
@@ -160,7 +192,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="@dimen/nav_header_vertical_spacing"
-            android:text="Ejecutar Prueba"
+            android:text="Pre-Verificación"
             android:textColor="#615D5B"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="13dp"
@@ -181,37 +213,21 @@
             android:layout_alignRight="@+id/imageView2"
             android:layout_alignEnd="@+id/imageView2" />
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="4dp"
-            android:layout_height="3dp"
-            android:layout_above="@+id/imageView2"
-            android:background="#d8d8d8"
-            android:id="@+id/layout3"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentRight="false"
-            android:layout_alignParentEnd="true"
-            android:layout_alignWithParentIfMissing="false"
-            android:layout_alignParentTop="false"
-            android:layout_marginBottom="5dp" />
-
         <TextView
-            android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:longClickable="true"
-            android:text="PRE-VERIFICACIÓN"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:text="Unidad 1"
+            android:textColor="#615D5B"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="#C70000"
-            android:textSize="24sp"
-            android:textStyle="italic"
+            android:textSize="15dp"
+            android:longClickable="true"
             android:typeface="sans"
-            android:gravity="center"
-            android:layout_above="@+id/layout3"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginBottom="2dp" />
-
+            android:id="@+id/textView30"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_toLeftOf="@+id/imageView4"
+            android:layout_alignLeft="@+id/imageView2"
+            android:layout_alignStart="@+id/imageView2" />
 
     </RelativeLayout>
 
