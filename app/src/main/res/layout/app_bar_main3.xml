@@ -36,88 +36,77 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:paddingBottom="@dimen/activity_vertical_margin"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingLeft="16dp"
         android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingTop="50dp"
         tools:context="com.herprogramacion.botones.ActividadBotones">
-
-        <ImageSwitcher
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageSwitcher"
-            android:layout_centerVertical="true" />
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="4dp"
-            android:layout_height="3dp"
-            android:background="#d8d8d8"
-            android:id="@+id/layout3"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentRight="false"
-            android:layout_alignParentEnd="true"
-            android:layout_alignWithParentIfMissing="false"
-            android:layout_alignParentTop="false"
-            android:layout_marginBottom="185dp"
-            android:layout_above="@+id/imageSwitcher" />
 
         <TextView
             android:id="@+id/textView6"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
             android:longClickable="true"
-            android:text="VISOR"
+            android:layout_marginTop="15dp"
+            android:text="NOTIFICACIONES"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="#C70000"
             android:textSize="24sp"
             android:textStyle="italic"
             android:typeface="sans"
-            android:gravity="center"
-            android:layout_above="@+id/layout3"
-            android:layout_alignRight="@+id/layout3"
-            android:layout_alignEnd="@+id/layout3"
+            android:gravity="center"/>
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="1dp"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/editText"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:background="@android:color/darker_gray" />
 
         <EditText
             android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:id="@+id/editText2"
             android:maxLength="30"
             android:lines="1"
-            android:layout_alignTop="@+id/layout3"
             android:layout_centerHorizontal="true"
             android:singleLine="true"
             android:hint="Buscar"
             android:backgroundTint="@android:color/darker_gray"
-            />
+            android:layout_marginTop="55dp"
+            android:id="@+id/editText" />
 
 
         <ImageButton
+            android:id="@+id/imageButton"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:id="@+id/imageButton"
-            android:src="@drawable/ic_search_menu"
+            android:layout_alignEnd="@+id/editText"
+            android:layout_alignRight="@+id/editText"
+            android:layout_alignTop="@+id/editText"
             android:background="@android:color/transparent"
-            android:layout_alignTop="@+id/layout3"
-            android:layout_alignRight="@+id/editText2"
-            android:layout_alignEnd="@+id/editText2"
-            android:layout_marginTop="5dp" />
+            android:src="@drawable/ic_search_menu" />
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="80dp"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:id="@+id/imageView5"
             android:src="@drawable/visor_01"
-            android:layout_marginBottom="54dp"
-            android:layout_above="@+id/imageView7"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignRight="@+id/imageView6"
-            android:layout_alignEnd="@+id/imageView6"
-            android:layout_below="@+id/editText2" />
+            android:layout_marginTop="5dp"
+            />
 
-        <Spinner
+            <Spinner
             android:id="@+id/spclientes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -125,240 +114,261 @@
             android:layout_alignBottom="@+id/imageView5"
             android:layout_alignLeft="@+id/editText2"
             android:layout_alignStart="@+id/editText2"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="10dp"
-            android:textColor="#615D5B"            />
+            android:layout_marginTop="10dp"
+            android:textColor="#615D5B"/>
 
-        <ImageView
-            android:layout_width="wrap_content"
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+            android:layout_width="40dp"
             android:layout_height="40dp"
-            android:id="@+id/imageView6"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
             android:src="@drawable/visor_55"
-            android:layout_toStartOf="@+id/spflotillas"
-            android:layout_below="@+id/spflotillas"
-            android:layout_marginTop="6dp" />
-        <Spinner
+            android:layout_marginTop="40dp" />
+             <Spinner
             android:id="@+id/spflotillas"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:entries="@array/flotillas"
-            android:layout_alignBottom="@+id/imageView5"
             android:layout_alignLeft="@+id/editText2"
             android:layout_alignStart="@+id/editText2"
-            android:layout_marginBottom="-35dp"
-            android:layout_marginLeft="10dp" />
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="32dp"
+            android:layout_marginTop="50dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:id="@+id/imageView7"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"            android:src="@drawable/visor_03"
-            android:layout_above="@+id/imageSwitcher"
-            android:layout_alignRight="@+id/imageView5"
-            android:layout_alignEnd="@+id/imageView5"
-            android:layout_marginBottom="18dp" />
+            android:layout_marginTop="80dp"
+                android:layout_marginLeft="5dp"
+                 android:src="@drawable/visor_03"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Unidad 1"
             android:id="@+id/textView7"
-            android:layout_alignBottom="@+id/imageView7"
-            android:layout_alignLeft="@+id/spflotillas"
-            android:layout_alignStart="@+id/spflotillas"
-            android:layout_marginBottom="7dp"
+            android:layout_marginTop="80dp"
            android:textColor="#615D5B"
-            android:layout_marginLeft="7dp"
+            android:layout_marginLeft="15dp"
             android:textSize="15dp"
             android:textIsSelectable="true" />
         <CheckBox
             android:id="@+id/checkBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
-            android:layout_alignTop="@+id/textView7"
-            android:layout_toRightOf="@+id/textView7"
-            android:layout_toEndOf="@+id/textView7"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="-5dp" />
+            android:layout_marginTop="80dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/imageView7"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/visor_03"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unidad 2"
+                android:id="@+id/textView7"
+                android:layout_marginTop="120dp"
+                android:textColor="#615D5B"
+                android:layout_marginLeft="15dp"
+                android:textSize="15dp"
+                android:textIsSelectable="true" />
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="120dp" />
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="800dp"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editText"
+            android:layout_marginTop="175dp"
+            android:background="@android:color/black"
+            />
 
 
         <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="4dp"
-            android:layout_height="3dp"
-            android:background="#d8d8d8"
-            android:id="@+id/layout5"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentRight="false"
-            android:layout_alignParentEnd="true"
-            android:layout_alignWithParentIfMissing="false"
-            android:layout_alignParentTop="false"
-            android:layout_marginBottom="-40dp"
-            android:layout_above="@+id/imageSwitcher" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:id="@+id/imageView9"
+                android:src="@drawable/visor_08"
+                android:layout_marginTop="180dp"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Última Posición"
+                android:id="@+id/textView8"
+                android:layout_marginTop="185dp"
+                android:textColor="#615D5B"
+                android:layout_marginLeft="15dp"
+                android:textSize="15dp"
+                android:textIsSelectable="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="32dp"
-            android:id="@+id/imageView81"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:src="@drawable/visor_03"
-            android:layout_above="@+id/imageSwitcher"
-            android:layout_alignRight="@+id/imageView5"
-            android:layout_alignEnd="@+id/imageView5"
-            android:layout_marginBottom="-25dp" />
-        <CheckBox
-            android:id="@+id/checkBox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_alignTop="@+id/textView7"
-            android:layout_toRightOf="@+id/textView7"
-            android:layout_toEndOf="@+id/textView7"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="45dp" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Unidad 2"
-            android:id="@+id/textView81"
-            android:layout_alignBottom="@+id/imageView81"
-            android:layout_alignLeft="@+id/spflotillas"
-            android:layout_alignStart="@+id/spflotillas"
-            android:layout_marginBottom="2dp"
-            android:textColor="#615D5B"
-            android:layout_marginLeft="7dp"
-            android:textSize="15dp"
-            android:textIsSelectable="true" />
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="32dp"
-            android:id="@+id/imageView9"
-            android:src="@drawable/visor_08"
-            android:layout_marginTop="14dp"
-            android:layout_alignTop="@+id/layout5"
-            android:layout_toLeftOf="@+id/spflotillas"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Última Posición"
-            android:id="@+id/textView8"
-            android:layout_alignBottom="@+id/imageView9"
-            android:layout_alignLeft="@+id/spflotillas"
-            android:layout_alignStart="@+id/spflotillas"
-            android:layout_marginBottom="7dp"
-            android:textColor="#615D5B"
-            android:layout_marginLeft="7dp"
-            android:textSize="15dp"
-            android:textIsSelectable="true" />
-        <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="32dp"
             android:layout_height="32dp"
             android:id="@+id/imageView10"
             android:src="@drawable/visor_10"
-            android:layout_alignTop="@+id/layout5"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="59dp"
-            android:layout_toLeftOf="@+id/spflotillas"
-            android:layout_toStartOf="@+id/spflotillas" />
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="5dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Último Viaje"
             android:id="@+id/textView10"
-            android:layout_alignBottom="@+id/imageView9"
-            android:layout_alignLeft="@+id/spflotillas"
-            android:layout_alignStart="@+id/spflotillas"
-            android:layout_marginBottom="-39dp"
+            android:layout_marginTop="225dp"
             android:textColor="#615D5B"
-            android:layout_marginLeft="7dp"
+            android:layout_marginLeft="15dp"
             android:textSize="15dp"
             android:textIsSelectable="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="32dp"
             android:layout_height="32dp"
             android:id="@+id/imageView12"
             android:src="@drawable/visor_12"
-            android:layout_alignTop="@+id/layout5"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="100dp"
-            android:layout_toLeftOf="@+id/spflotillas"
-            android:layout_toStartOf="@+id/spflotillas" />
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="5dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Viaje en Curso"
             android:id="@+id/textView12"
-            android:layout_alignBottom="@+id/imageView9"
-            android:layout_alignLeft="@+id/spflotillas"
-            android:layout_alignStart="@+id/spflotillas"
-            android:layout_marginBottom="-82dp"
+            android:layout_marginTop="265dp"
             android:textColor="#615D5B"
-            android:layout_marginLeft="7dp"
+            android:layout_marginLeft="15dp"
             android:textSize="15dp"
             android:textIsSelectable="true" />
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="32dp"
-            android:id="@+id/imageView13"
-            android:src="@drawable/visor_14"
-            android:layout_alignTop="@+id/layout5"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="150dp"
-            android:layout_toLeftOf="@+id/spflotillas"
-            android:layout_toStartOf="@+id/spflotillas" />
+        </LinearLayout>
 
-        <TextView
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Histórico"
-            android:id="@+id/textView133"
-            android:textColor="#615D5B"
-            android:textSize="15dp"
-            android:textIsSelectable="true"
-            android:layout_alignParentBottom="true"
-            android:layout_alignLeft="@+id/textView13"
-            android:layout_alignStart="@+id/textView13"
-            android:layout_marginBottom="4dp" />
+            android:layout_below="@+id/editText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="wrap_content"
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:id="@+id/imageView13"
+                android:src="@drawable/visor_14"
+                android:layout_marginTop="300dp"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Histórico"
+                android:id="@+id/textView133"
+                android:textColor="#615D5B"
+                android:textSize="15dp"
+                android:textIsSelectable="true"
+                android:layout_marginTop="345dp"
+                android:layout_marginLeft="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Viajes"
-            android:id="@+id/textView13"
-            android:layout_alignBottom="@+id/imageView9"
-            android:layout_alignLeft="@+id/spflotillas"
-            android:layout_alignStart="@+id/spflotillas"
-            android:layout_marginBottom="-130dp"
-            android:textColor="#615D5B"
-            android:layout_marginLeft="7dp"
-            android:textSize="15dp"
-            android:textIsSelectable="true" />
+            android:layout_below="@+id/editText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="42dp"
-            android:id="@+id/imageView13"
-            android:src="@drawable/visor_16"
-            android:layout_above="@+id/textView133"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_toStartOf="@+id/spflotillas"
-            android:layout_alignRight="@+id/imageView13"
-            android:layout_alignEnd="@+id/imageView13"
-            android:layout_marginBottom="-25dp" />
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:id="@+id/imageView13"
+                android:src="@drawable/visor_16"
+                android:layout_marginTop="340dp"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Viajes"
+                android:id="@+id/textView13"
+                android:layout_marginTop="305dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="#615D5B"
+                android:textSize="15dp"
+                android:textIsSelectable="true" />
+
+        </LinearLayout>
 
 
     </RelativeLayout>
