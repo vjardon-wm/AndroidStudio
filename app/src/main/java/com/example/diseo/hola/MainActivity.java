@@ -107,6 +107,8 @@ public class MainActivity extends AppCompatActivity
             startActivity(i);
 
         } else if (id == R.id.nav_share) {
+            Intent i= new Intent (MainActivity.this, NotificationsActivity.class);
+            startActivity(i);
 
 
     } else if (id == R.id.nav_send) {
