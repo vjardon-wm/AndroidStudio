@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity
             Intent i= new Intent (MainActivity.this, Main3Activity.class);
             startActivity(i);
         } else if (id == R.id.nav_noti) {
-            Intent i= new Intent (MainActivity.this, Main4Activity.class);
+            Intent i= new Intent (MainActivity.this, NotificationsActivity.class);
             startActivity(i);
         } else if (id == R.id.nav_check) {
             Intent i= new Intent (MainActivity.this, Main6Activity.class);
@@ -107,10 +107,12 @@ public class MainActivity extends AppCompatActivity
             startActivity(i);
 
         } else if (id == R.id.nav_share) {
-
+            Intent i= new Intent (MainActivity.this,MainUnidadesActivity.class);
+            startActivity(i);
 
     } else if (id == R.id.nav_send) {
-
+            Intent i= new Intent (MainActivity.this, MainHistoriaActivity.class);
+            startActivity(i);
     }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
