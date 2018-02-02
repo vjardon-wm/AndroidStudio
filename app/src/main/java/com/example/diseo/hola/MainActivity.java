@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity
             Intent i= new Intent (MainActivity.this, Main5Activity.class);
             startActivity(i);
         } else if (id == R.id.nav_tools) {
-            Intent i= new Intent (MainActivity.this, MantenimientosActivity.class);
+            Intent i= new Intent (MainActivity.this, MainRegistroActivity.class);
             startActivity(i);
 
         } else if (id == R.id.nav_dash) {

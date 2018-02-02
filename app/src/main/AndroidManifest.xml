@@ -68,7 +68,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Main8Activity" />
         <activity android:name=".MainUnidadesActivity" />
-        <activity android:name=".MainHistoriaActivity"></activity>
+        <activity android:name=".MainHistoriaActivity" />
+        <activity android:name=".MainRegistroActivity"></activity>
     </application>
 
 </manifest>

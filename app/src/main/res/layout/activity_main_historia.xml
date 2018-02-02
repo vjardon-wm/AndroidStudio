@@ -207,7 +207,7 @@
         android:layout_width="70dp"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="12:35pm"
+        android:text="12:35 pm"
         android:textColor="#615D5B"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="10dp"
@@ -327,7 +327,7 @@
         android:layout_width="70dp"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="1:35pm"
+        android:text="1:35 pm"
         android:textColor="#615D5B"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="10dp"
@@ -470,7 +470,7 @@
         android:layout_width="70dp"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="3:15pm"
+        android:text="3:15 pm"
         android:textColor="#615D5B"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="10dp"
@@ -508,6 +508,308 @@
         android:layout_alignStart="@+id/textView61"
         android:layout_alignBottom="@+id/textView66"
         android:layout_marginTop="-3dp" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="31 km/h"
+        android:textColor="#615D5B"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="12dp"
+        android:longClickable="true"
+        android:typeface="sans"
+        android:id="@+id/textView68"
+        android:layout_alignTop="@+id/textView67"
+        android:layout_toLeftOf="@+id/textView63"
+        android:layout_toStartOf="@+id/textView63" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:id="@+id/imageView54"
+        android:src="@drawable/tele"
+        android:layout_alignBottom="@+id/textView67"
+        android:layout_alignRight="@+id/textView67"
+        android:layout_alignEnd="@+id/textView67" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:id="@+id/imageView55"
+        android:src="@drawable/tele"
+        android:layout_alignBottom="@+id/textView68"
+        android:layout_alignLeft="@+id/imageView50"
+        android:layout_alignStart="@+id/imageView50" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="31 km/h"
+        android:textColor="#615D5B"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="12dp"
+        android:longClickable="true"
+        android:typeface="sans"
+        android:id="@+id/textView69"
+        android:layout_alignBottom="@+id/textView68"
+        android:layout_toRightOf="@+id/textView68"
+        android:layout_toEndOf="@+id/textView68" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="Insurgentes sur, 1675, Guadalupe Inn 07650"
+        android:textColor="#615D5B"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="13dp"
+        android:longClickable="true"
+        android:typeface="sans"
+        android:id="@+id/textView70"
+        android:layout_alignTop="@+id/imageView52"
+        android:layout_alignLeft="@+id/textView66"
+        android:layout_alignStart="@+id/textView66" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:id="@+id/imageView57"
+        android:layout_marginTop="13dp"
+        android:src="@drawable/circlegray"
+        android:layout_below="@+id/textView65"
+        android:layout_alignLeft="@+id/imageView52"
+        android:layout_alignStart="@+id/imageView52" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:id="@+id/imageView58"
+        android:src="@drawable/line"
+        android:layout_below="@+id/imageView57"
+        android:layout_alignLeft="@+id/imageView51"
+        android:layout_alignStart="@+id/imageView51"
+        android:layout_marginTop="-6dp" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:id="@+id/imageView59"
+        android:src="@drawable/circlegray"
+        android:layout_below="@+id/imageView58"
+        android:layout_alignLeft="@+id/imageView57"
+        android:layout_alignStart="@+id/imageView57"
+        android:layout_marginTop="-6dp" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="5:04 am"
+        android:textColor="#615D5B"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="10dp"
+        android:longClickable="true"
+        android:typeface="sans"
+        android:id="@+id/textView71"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView65"
+        android:layout_alignLeft="@+id/textView70"
+        android:layout_alignStart="@+id/textView70" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:id="@+id/imageView60"
+        android:src="@drawable/tele"
+        android:layout_alignBottom="@+id/textView71"
+        android:layout_alignLeft="@+id/imageView53"
+        android:layout_alignStart="@+id/imageView53" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="31 km/h"
+        android:textColor="#615D5B"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="12dp"
+        android:longClickable="true"
+        android:typeface="sans"
+        android:id="@+id/textView72"
+        android:layout_alignBottom="@+id/textView71"
+        android:layout_alignLeft="@+id/textView67"
+        android:layout_alignStart="@+id/textView67" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:id="@+id/imageView61"
+        android:src="@drawable/tele"
+        android:layout_alignBottom="@+id/textView72"
+        android:layout_alignLeft="@+id/imageView54"
+        android:layout_alignStart="@+id/imageView54" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="31 km/h"
+        android:textColor="#615D5B"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="12dp"
+        android:longClickable="true"
+        android:typeface="sans"
+        android:id="@+id/textView73"
+        android:layout_alignBottom="@+id/imageView61"
+        android:layout_alignLeft="@+id/textView68"
+        android:layout_alignStart="@+id/textView68" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:id="@+id/imageView62"
+        android:src="@drawable/tele"
+        android:layout_alignBottom="@+id/imageView61"
+        android:layout_alignLeft="@+id/imageView55"
+        android:layout_alignStart="@+id/imageView55" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="31 km/h"
+        android:textColor="#615D5B"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="12dp"
+        android:longClickable="true"
+        android:typeface="sans"
+        android:id="@+id/textView74"
+        android:layout_alignBottom="@+id/imageView62"
+        android:layout_toRightOf="@+id/textView73"
+        android:layout_toEndOf="@+id/textView73" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="Insurgentes sur, 1675, Guadalupe Inn 07650"
+        android:textColor="#615D5B"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="13dp"
+        android:longClickable="true"
+        android:typeface="sans"
+        android:id="@+id/textView75"
+        android:layout_alignBottom="@+id/imageView57"
+        android:layout_alignLeft="@+id/textView71"
+        android:layout_alignStart="@+id/textView71" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="9:28 am"
+        android:textColor="#615D5B"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="10dp"
+        android:longClickable="true"
+        android:typeface="sans"
+        android:id="@+id/textView76"
+        android:textStyle="bold"
+        android:layout_above="@+id/imageView59"
+        android:layout_alignLeft="@+id/textView75"
+        android:layout_alignStart="@+id/textView75"
+        android:layout_marginBottom="-8dp" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:id="@+id/imageView63"
+        android:src="@drawable/tele"
+        android:layout_alignBottom="@+id/textView76"
+        android:layout_alignLeft="@+id/imageView60"
+        android:layout_alignStart="@+id/imageView60"
+        android:layout_toLeftOf="@+id/textView57"
+        android:layout_toStartOf="@+id/textView57" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="31 km/h"
+        android:textColor="#615D5B"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="12dp"
+        android:longClickable="true"
+        android:typeface="sans"
+        android:id="@+id/textView77"
+        android:layout_alignBottom="@+id/textView76"
+        android:layout_alignLeft="@+id/textView72"
+        android:layout_alignStart="@+id/textView72" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:id="@+id/imageView64"
+        android:src="@drawable/tele"
+        android:layout_alignBottom="@+id/textView77"
+        android:layout_alignLeft="@+id/imageView61"
+        android:layout_alignStart="@+id/imageView61" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="31 km/h"
+        android:textColor="#615D5B"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="12dp"
+        android:longClickable="true"
+        android:typeface="sans"
+        android:id="@+id/textView78"
+        android:layout_alignBottom="@+id/textView77"
+        android:layout_alignLeft="@+id/textView73"
+        android:layout_alignStart="@+id/textView73" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:id="@+id/imageView65"
+        android:src="@drawable/tele"
+        android:layout_alignBottom="@+id/textView78"
+        android:layout_alignLeft="@+id/imageView62"
+        android:layout_alignStart="@+id/imageView62" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="31 km/h"
+        android:textColor="#615D5B"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="12dp"
+        android:longClickable="true"
+        android:typeface="sans"
+        android:id="@+id/textView79"
+        android:layout_alignBottom="@+id/textView78"
+        android:layout_toRightOf="@+id/textView78"
+        android:layout_toEndOf="@+id/textView78" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="Insurgentes sur, 1675, Guadalupe Inn 07650"
+        android:textColor="#615D5B"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="13dp"
+        android:longClickable="true"
+        android:typeface="sans"
+        android:id="@+id/textView80"
+        android:layout_alignTop="@+id/imageView59"
+        android:layout_alignLeft="@+id/textView76"
+        android:layout_alignStart="@+id/textView76" />
 
 
 </RelativeLayout>

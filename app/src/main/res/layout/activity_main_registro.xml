@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.diseo.hola.MainRegistroActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:longClickable="true"
+        android:text="REGISTRO DE DISPOSITIVO"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#C70000"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:typeface="sans"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="7dp" />
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/view5" />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:maxLength="30"
+        android:lines="1"
+        android:singleLine="true"
+        android:hint="Nombre"
+        android:backgroundTint="@android:color/darker_gray"
+        android:id="@+id/editText"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:maxLength="30"
+        android:lines="1"
+        android:singleLine="true"
+        android:hint="Alias"
+        android:backgroundTint="@android:color/darker_gray"
+        android:id="@+id/editText3"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <Spinner
+        android:id="@+id/sptipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/tipo"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/editText3"
+        android:layout_toRightOf="@+id/imageView66"
+        android:layout_toEndOf="@+id/imageView66" />
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageView67"
+        android:src="@drawable/movil"
+        android:layout_alignBottom="@+id/sptipo"
+        android:layout_toLeftOf="@+id/editText3"
+        android:layout_toStartOf="@+id/editText3" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageView66"
+        android:src="@drawable/visor_01"
+        android:layout_above="@+id/editText3"
+        android:layout_alignLeft="@+id/imageView67"
+        android:layout_alignStart="@+id/imageView67"
+        android:layout_marginBottom="4dp"
+        android:layout_alignRight="@+id/imageView68"
+        android:layout_alignEnd="@+id/imageView68" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageView68"
+        android:layout_alignLeft="@+id/view5"
+        android:layout_alignStart="@+id/view5"
+        android:src="@drawable/alias"
+        android:layout_alignBottom="@+id/editText3"
+        android:layout_toStartOf="@+id/editText3"
+        android:layout_marginBottom="12dp"
+        android:layout_marginRight="247dp"
+        android:layout_marginEnd="247dp"
+        android:layout_alignTop="@+id/editText3"
+        android:layout_alignRight="@+id/editText3"
+        android:layout_alignEnd="@+id/editText3" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView69"
+        android:src="@drawable/logoavl"
+        android:layout_above="@+id/imageView66"
+        android:layout_alignLeft="@+id/imageView66"
+        android:layout_alignStart="@+id/imageView66"
+        android:layout_marginBottom="52dp" />
+
+</RelativeLayout>
