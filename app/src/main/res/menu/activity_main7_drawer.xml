@@ -4,45 +4,26 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Home" />
+            android:icon="@drawable/ultima"
+            android:title="Último inició de Sesión" />
         <item
             android:id="@+id/nav_noti"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Notificaciones" />
+            android:icon="@drawable/zona"
+            android:title="Zona horaria" />
         <item
             android:id="@+id/nav_check"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="CheckEngine" />
+            android:icon="@drawable/idioma"
+            android:title="Cambiar idioma" />
         <item
             android:id="@+id/nav_verifi"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Pre-Verificación" />
+            android:icon="@drawable/cambiar"
+            android:title="Cambiar contraseña" />
         <item
             android:id="@+id/nav_driver"
-            android:icon="@drawable/ic_menu_driver"
-            android:title="Driver Behavior" />
-        <item
-            android:id="@+id/nav_tools"
-            android:icon="@drawable/ic_menu_tool"
-            android:title="Mantenimientos" />
-        <item
-            android:id="@+id/nav_dash"
-            android:icon="@drawable/ic_menu_dash"
-            android:title="Dashboard" />
+            android:icon="@drawable/cerrar"
+            android:title="Cerrar Sesión" />
+
     </group>
 
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Holi" />
-        </menu>
-    </item>
 
 </menu>
