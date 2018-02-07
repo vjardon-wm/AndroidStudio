@@ -104,5 +104,7 @@
     <string name="title_activity_mantenimientos">MantenimientosActivity</string>
     <string name="title_activity_main7">Main7Activity</string>
     <string name="title_activity_notifications">NotificationsActivity</string>
+    <string name="title_activity_maintrucos">MaintrucosActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 
 </resources>

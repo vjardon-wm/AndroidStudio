@@ -69,7 +69,9 @@
         <activity android:name=".Main8Activity" />
         <activity android:name=".MainUnidadesActivity" />
         <activity android:name=".MainHistoriaActivity" />
-        <activity android:name=".MainRegistroActivity"></activity>
+        <activity android:name=".MainRegistroActivity" />
+        <activity android:name=".MainConsejosActivity" />
+        <activity android:name=".Mainconsejo2Activity"></activity>
     </application>
 
 </manifest>
